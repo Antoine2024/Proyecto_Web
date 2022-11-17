@@ -301,7 +301,7 @@ a:active {
 }
 
 .pre-loader:before {
-  content: "\f276";
+  content: "\f319";
   position: absolute;
   top: 50%;
   left: 50%;
