@@ -8,6 +8,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
   <!-- Fonts -->
@@ -30,7 +31,16 @@
 
   function verifyPassword() {
 
-    const string2 = String("hola");
+    const string3 = String("Beijing");
+    const string4 = String("beijing");
+    const string5 = String("pequin");
+    const string6 = String("pequín");
+    const string7 = String("Pequín");
+    const string8 = String("Pequin");
+    const string9 = String("Pekin");
+    const string10 = String("pekin");
+    const string11 = String("pekín");
+    const string12 = String("Pekín");
     var pw = document.getElementById("pswd").value;
     //check empty password field
 
@@ -44,14 +54,41 @@
       return false;
     }
 
-    if(pw !== string2) {
-      document.getElementById("message").innerHTML = "Incorrecta";
-      return false;
-    } else{
+    if(pw === string3) {
       document.location.href = "Prueba2.html";
     }
+    if(pw === string4) {
+      document.location.href = "Prueba2.html";
+    }
+    if(pw === string5) {
+      document.location.href = "Prueba2.html";
+    }
+    if(pw === string6) {
+      document.location.href = "Prueba2.html";
+    }
+    if(pw === string7) {
+      document.location.href = "Prueba2.html";
+    }
+    if(pw === string8) {
+      document.location.href = "Prueba2.html";
+    }
+    if(pw === string9) {
+      document.location.href = "Prueba2.html";
+    }
+    if(pw === string10) {
+      document.location.href = "Prueba2.html";
+    }
+    if(pw === string11) {
+      document.location.href = "Prueba2.html";
+    }
+    if(pw === string12) {
+      document.location.href = "Prueba2.html";
+    }
+    else{
+      document.getElementById("message").innerHTML = "Incorrecta";
+      return false;
+    }
   }
-
 </script>
 
 
@@ -89,19 +126,19 @@
 <section class="bg-orange section">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 text-center mb-5">
-        <img class="test" src="images/FONDo.png">
+      <div class="col-md-12 text-center mb-10">
+        <img class="test" src="images/Beijing.png" >
       </div>
-      <div class=" align-self-center text-center text-white text-md-center">
-        <div class="block">
-          <h1 class="font-weight-bold mb-4 font-size-60">Te damos la bienvenida al juego</h1>
-          <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!</p>
+      <div class="col-md-12 text-center mb-10">
+        <div class=" align-self-center text-center text-md-center">
+          <div class="block">
+            <h1 class="font-weight-bold text-white mb-4 font-size-60">Cual es la capital de China?</h1>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </div><!-- .row close -->
+
   <center>
       <!-- Enter Password -->
       <p class="text-white mb-4">Escribe tu respuesta aqui!</p>
